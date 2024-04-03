@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/szlc15/changliu.github.io
 
 go 1.19
 
