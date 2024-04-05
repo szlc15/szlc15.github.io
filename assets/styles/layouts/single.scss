@@ -4,20 +4,19 @@ body.kind-page {
 
   .wrapper {
     display: flex;
-    padding: 0;
-    margin: 0;
+    // padding: 0;
+    margin: auto;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
 
     .content-section {
-      flex: 60%;
-      max-width: 60%;
+      flex: 100%;
+      max-width: 1140px;
       order: 2;
-      padding: 0;
+      justify-content: center;
+      margin: auto;
       position: relative;
-      padding-left: 1rem;
-      padding-right: 1rem;
 
       .content {
         padding-top: 1.5rem;
@@ -207,8 +206,8 @@ body.kind-page {
 
   @include media('<=ultra-large') {
     .content-section {
-      flex: 65%;
-      max-width: 65%;
+      flex: 100%;
+      max-width: 100%;
     }
     .content-section .container {
       max-width: 100%;
@@ -221,12 +220,13 @@ body.kind-page {
     }
 
     .wrapper {
-      padding-left: 0px;
-      padding-right: 0px;
+      // padding-left: 0px;
+      // padding-right: 0px;
+      justify-content: center;
 
       .content-section {
-        padding: 0;
-        flex: 60%;
+        margin: auto;
+        flex: 100%;
         max-width: 100%;
         order: 2;
         overflow: hidden;
@@ -273,7 +273,7 @@ body.kind-page {
       flex-direction: column;
 
       .content-section {
-        padding: 0;
+        margin: auto;
         flex: 100%;
         max-width: 100%;
         order: 3;

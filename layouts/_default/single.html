@@ -6,7 +6,7 @@
     {{ partial "navigators/navbar.html" . }}
 {{ end }}
 
-{{ define "sidebar" }}
+{{/*  {{ define "sidebar" }}
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
@@ -24,10 +24,10 @@
       </div>
     </div>
   </section>
-{{ end }}
+{{ end }}  */}}
 
 {{ define "content" }}
-<section class="content-section" id="content-section">
+<section class="content-section pb-5" style="display: flex; flex-wrap: wrap;" id="content-section">
   <div class="content">
     <div class="container p-0 read-area">
       <!--Hero Area-->
@@ -172,15 +172,16 @@
 {{ end }}
 
 {{ define "toc" }}
-  <section class="toc-section" id="toc-section">
-    {{ if and site.Params.features.toc.enable ( .Params.enableTOC | default true ) }}
-    <div class="toc-holder">
-      <h5 class="text-center pl-3">{{ i18n "toc_heading" }}</h5>
-      <hr>
-      <div class="toc">
-        {{ .TableOfContents }}
+  {{ if and site.Params.features.toc.enable ( .Params.enableTOC | default true ) }}
+    <section class="toc-section" id="toc-section">
+      <div class="toc-holder">
+        <h5 class="text-center pl-3">{{ i18n "toc_heading" }}</h5>
+        <hr>
+        <div class="toc">
+          {{ .TableOfContents }}
+        </div>
       </div>
-    </div>
-    {{ end }}
-  </section>
+
+    </section>
+  {{ end }}
 {{ end }}

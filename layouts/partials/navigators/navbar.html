@@ -55,11 +55,11 @@
 
 <nav class="navbar navbar-expand-xl top-navbar shadow {{ if .IsHome}}transparent-navbar homepage{{end}}" id="top-navbar">
   <div class="container">
-    {{ if not .IsHome }}
+    {{/*  {{ if not .IsHome }}
     <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
       <i data-feather="sidebar"></i>
     </button>
-    {{ end }}
+    {{ end }}  */}}
     <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
       {{ if $logo }}
         <img src="{{ $logo }}" id="logo" alt="Logo">
@@ -117,7 +117,7 @@
         {{ end }}
         {{ if $blogEnabled }}
           <li class="nav-item">
-            <a class="nav-link" id="blog-link" href="{{ path.Join (site.BaseURL | relLangURL) "posts" }}">{{ i18n "posts" }}</a>
+            <a class="nav-link" id="blog-link" href="{{ path.Join (site.BaseURL | relLangURL) "posts" }}">{{ i18n "projects" }}</a>
           </li>
         {{ end }}
         {{ if $notesEnabled }}

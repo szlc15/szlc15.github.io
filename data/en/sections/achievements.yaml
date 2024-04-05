@@ -1,16 +1,16 @@
 # section information
 section:
-  name: Achievements
+  name: Featured Research
   id: achievements
   enable: false
-  weight: 10
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
+- title: Gaze-based User Interface
   image: /images/sections/achievements/presenter.jpg
   summary: Best presenter in the 2020 XYZ conference.
 - title: Champion
@@ -22,3 +22,4 @@ achievements:
 - title: Award Winner
   image: /images/sections/achievements/woman-winner.jpg
   summary: Wined best paper award at IEE Conference 2020.
+  

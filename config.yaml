@@ -85,16 +85,16 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: false
-      showAuthor: true # shows the author of post (defaults true)
+      enable: true
+      showAuthor: false # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
-        linkedin: true
-        reddit: true
-        whatsapp: true
-        email: true
+        facebook: false
+        twitter: false
+        linkedin: false
+        reddit: false
+        whatsapp: false
+        email: false
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -177,12 +177,12 @@ params:
 
     # specify whether you want to show Table of Contents in reading page
     toc:
-      enable: true
+      enable: false
 
     # Show tags under the post title
     tags:
-      enable: true
-      on_card: true # enables tags in post cards
+      enable: false
+      on_card: false # enables tags in post cards
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
@@ -256,8 +256,7 @@ params:
           # fullscreen: true
     
         # Enable reading time support in post cards and in post pages
-    readingTime:
-      enable: false
+    readingTime: false
     
     # Number of posts to show to each page. Default is "12"
     pagination:

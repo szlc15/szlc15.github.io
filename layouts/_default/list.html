@@ -2,7 +2,7 @@
     {{ partial "navigators/navbar.html" . }}
 {{ end }}
 
-{{ define "sidebar" }}
+{{/*  {{ define "sidebar" }}
   {{ $homePage:="#" }}
   {{ if site.IsMultiLingual }}
     {{ $homePage = (path.Join (cond ( eq .Language.Lang "en") "" .Language.Lang) .Type) }}
@@ -25,7 +25,7 @@
       </div>
     </div>
   </section>
-{{ end }}
+{{ end }}  */}}
 
 {{ define "content" }}
 <section class="content-section" id="content-section">

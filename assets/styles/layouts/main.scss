@@ -17,10 +17,10 @@ body {
   See: https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors 
   */
 :target::before {
-  content: '';
-  display: block;
-  height: 2em; /* fixed header height*/
-  margin: -2em 0 0; /* negative fixed header height */
+  // content: '';
+  // display: block;
+  // height: 2em; /* fixed header height*/
+  // margin: -2em 0 0; /* negative fixed header height */
 }
 
 body {
