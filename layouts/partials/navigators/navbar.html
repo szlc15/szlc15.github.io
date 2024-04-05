@@ -1,6 +1,7 @@
 {{/*  variables for enabling/disabling various features  */}}
 {{ $blogEnabled   := site.Params.features.blog.enable   | default false }}
 {{ $notesEnabled  := site.Params.features.notes.enable  | default false }}
+{{ $publicationsEnabled  := site.Params.features.publications.enable  | default false }}
 {{ $maxVisibleSections   := site.Params.topNavbar.maxVisibleSections   | default 5 }}
 
 {{/*  keep backward compatibility for blog post  */}}
@@ -38,9 +39,9 @@
 {{ end }}
 
 {{ $logo := $mainLogo }}
-{{ if .IsHome }}
+{{/*  {{ if .IsHome }}
   {{ $logo = $invertedLogo }}
-{{ end }}
+{{ end }}  */}}
 
 {{ $customMenus := site.Params.customMenus }}
 {{ if (index site.Data site.Language.Lang).site.customMenus }}
@@ -66,7 +67,7 @@
       {{- site.Title -}}
     </a>
     <button
-      class="navbar-toggler {{if .IsHome}}navbar-dark{{else}}navbar-light{{end}}"
+      class="navbar-toggler {{if .IsHome}}navbar-light{{else}}navbar-light{{end}}"
       id="navbar-toggler"
       type="button"
       data-toggle="collapse"
@@ -78,9 +79,9 @@
 
     <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
       <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item">
+        {{/*  <li class="nav-item">
           <a class="nav-link" href="{{ if .IsHome }}#home{{else}}{{ site.BaseURL | relLangURL }}#home{{end}}">{{ i18n "home" }}</a>
-        </li>
+        </li>  */}}
         {{ if $sections }}
           {{ $sectionCount := 1 }}
           {{ range sort $sections "section.weight" }}
@@ -124,6 +125,11 @@
             <a class="nav-link" id="note-link" href="{{ path.Join (site.BaseURL | relLangURL) "notes" }}">{{ i18n "notes" }}</a>
           </li>
         {{ end }}
+        {{ if $publicationsEnabled }}
+        <li class="nav-item">
+          <a class="nav-link" id="blog-link" href="{{ path.Join (site.BaseURL | relLangURL) "publications" }}">{{ i18n "publications" }}</a>
+        </li>
+      {{ end }}
         {{ range $customMenus }}
             {{ if (not .hideFromNavbar) }}
               <li class="nav-item">
@@ -144,7 +150,7 @@
   {{ if $mainLogo }}
     <img src="{{ $mainLogo }}" class="d-none" id="main-logo" alt="Logo">
   {{ end }}
-  {{ if $invertedLogo }}
+  {{/*  {{ if $invertedLogo }}
     <img src="{{ $invertedLogo }}" class="d-none" id="inverted-logo" alt="Inverted Logo">
-  {{ end }}
+  {{ end }}  */}}
 </nav>

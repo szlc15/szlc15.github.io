@@ -8,19 +8,34 @@
   {{ $author = (index site.Data site.Language.Lang).author }}
 {{ end }}
 
+{{ $authorImage:= "/images/default-avatar.png" }}
+{{ if $author.image }}
+  {{ $authorImage = $author.image }}
+{{ end }}
+{{ $authorImage := resources.Get $authorImage }}
+
+{{/* apply image processing. don't use "Fit" in svg or gif because its not supported */}}
+{{ if and $authorImage (and (ne $authorImage.MediaType.SubType "svg") ( ne $authorImage.MediaType.SubType "gif")) }}
+  {{ $authorImage = $authorImage.Fit "240x240" }}
+{{ end }}
+
 <div class="container anchor p-lg-5 about-section" id="{{ $sectionID }}">
   <div class="row pt-sm-2 pt-md-4 align-self-center">
+    <div class="col-sm-3">
+      <img src="{{ $authorImage.RelPermalink }}" class="d-block img-fluid float-left" alt="Author Image"/>
+    </div>
     <!-- summary -->
     <!-- takes up full section width if no badges/soft skills are specified -->
-    {{ if or (.softSkills) (.badges) }} <div class="col-sm-6"> {{ else }} <div class="col-sm-12"> {{ end }}
-      <h3 class="p-1">{{ $author.name }}</h3>
+    {{ if or (.softSkills) (.badges) }} <div class="col-sm-6"> {{ else }} <div class="col-sm-9"> {{ end }}
+      {{/*  <h4 class="p-1">{{ $author.name }}</h4>  */}}
       {{ if .designation }}
-      <h5 class="p-1">
+      <h4 class="p-1">
+        {{ $author.name }},
         {{ .designation }}
         {{ if .company }}
         {{ i18n "at"}} <a href="{{ .company.url }}" title="{{ .company.name }}" target="_blank" rel="noopener">{{ .company.name }}</a>
         {{ end }}
-      </h5>
+      </h4>
       {{ end }}
       <p class="p-1 text-justify">
         {{ .summary | markdownify }}

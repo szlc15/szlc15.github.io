@@ -7,6 +7,7 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
+
 # your designation
 designation: Assistant Professor
 # your company information
@@ -19,7 +20,10 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'Hi, my name is Chang Liu and I am a computer scientist and researcher.
+My efforts are mainly dedicated to interdisciplinary studies, trying to bridge the gap between information technologies and clinical environments.
+I am also supervising students from graduate schools of both Medicine and Informatics.
+Some of my research interests include Human-Computer Interaction, Eye Tracking Applications, Medical AR/VR/XR and Medical Artifcial Interlligence.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

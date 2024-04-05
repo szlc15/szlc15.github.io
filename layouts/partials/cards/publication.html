@@ -11,8 +11,10 @@
     <div class="card-header">
       <h5 class="card-title mb-0">{{ .title }}</h5>
       <div class="sub-title">
-        <span><a class="" href="{{.publishedIn.url}}">{{ .publishedIn.name }}</a></span>
+        {{/*  <span><a class="" href="{{.publishedIn.url}}">{{ .publishedIn.name }}</a></span>  */}}
+        <span>{{ .publishedIn.name }}, <a class="" href="{{.url}}" target="_blank">DOI</a></span>
         <span class="ml-2">{{ .publishedIn.date }}</span>
+        
       </div>
       <div class="authors">
         {{ range $index,$author:= .authors }}
@@ -21,10 +23,10 @@
         {{ end }}
       </div>
     </div>
-    <div class="card-body">
+    {{/*  <div class="card-body">
       <p>{{ .paper.summary | markdownify }}</p>
-    </div>
-    <div class="card-footer">
+    </div>  */}}
+    {{/*  <div class="card-footer">
       <div class="tags">
         {{ range $index,$tag:= .tags }}
             <span class="btn badge btn-info ml-1 p-2">
@@ -35,6 +37,6 @@
       <div class="details-btn">
         <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="{{ .paper.url }}" target="_blank" rel="noopener" role="button">{{ i18n "project_details"}}</a>
       </div>
-    </div>
+    </div>  */}}
   </div>
 </div>

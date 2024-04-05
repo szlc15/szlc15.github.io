@@ -35,35 +35,24 @@
     <!--- NAVBAR ------------------------->
     {{- partial "navigators/navbar.html" . -}}
 
-    {{/*  <!--- ADD HOME SECTION ---------------->
-    {{- partial "sections/home.html" . -}}  */}}
-
-    <!--- ADD OPTIONAL SECTIONS ----------->
-    {{ $sections:= site.Data.sections }}
-    {{ if (index site.Data site.Language.Lang).sections }}
-      {{ $sections = (index site.Data site.Language.Lang).sections }}
-    {{ end }}
-
-    {{ if $sections }}
-      {{ $background:= "bg-primary"}}
-      {{ range sort $sections "section.weight" }}
-        {{ if .section.enable }}
-          <div class="container-fluid section-holder d-flex {{ $background }}">
-            {{ if .section.template }}
-              {{- partial .section.template . -}}
-            {{ else }}
-              {{- partial (printf "sections/%s.html" (replace (lower .section.id) " " "-")) . -}}
-            {{ end }}
-          </div>
-          <!--- alter background color for next section --->
-          {{ if eq $background "bg-primary" }}
-            {{ $background = "bg-secondary" }}
-          {{ else }}
-            {{ $background = "bg-primary" }}
-          {{end}}
-        {{ end }}
-      {{ end }}
-    {{ end }}
+    <div class="container-fluid anchor pb-5 publications-section">
+      <div class="container ml-auto text-center">
+        <div class="btn-group flex-wrap" role="pub-group" id="publication-filter-buttons">
+          {{ range site.Data.publications.buttons }}
+          <button type="button" class="btn btn-dark pub-filtr-control" data-filter="pub-{{ .filter }}">
+            {{ .name }}
+          </button>
+          {{ end }}
+        </div>
+      </div>
+      <div class="container filtr-publications">
+        <div class="row" id="publication-card-holder">
+          {{ range site.Data.publications.publications }}
+            {{ partial "cards/publication" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
 
     <!--- ADD FOOTER ----------------------->
     {{ $footerTemplate:= site.Params.footer.template | default "footer.html" }}
