@@ -20,15 +20,16 @@
 {{ end }}
 
 <div class="row next-prev-navigator">
-  {{ if $prevPage }}
+  {{/*  {{ if $prevPage }}  */}}
     <div class="col-md-6 previous-article">
-      <a href="{{ $prevPage.RelPermalink }}" title="{{ $prevPage.Title }}" class="btn filled-button">
-        <div><i class="fas fa-chevron-circle-left"></i> {{ i18n "prev" }}</div>
-        <div class="next-prev-text">{{ $prevPage.Title }}</div>
+      <a href="{{ path.Join (site.BaseURL | relLangURL) "projects" }}" class="btn filled-button">
+      {{/*  <a href="{{ $prevPage.RelPermalink }}" title="{{ $prevPage.Title }}" class="btn filled-button">  */}}
+        <div><i class="fas fa-chevron-circle-left"></i> {{ i18n "projects" }}</div>
+        {{/*  <div class="next-prev-text">{{ $prevPage.Title }}</div>  */}}
       </a>
     </div>
-  {{ end }}
-  {{ if $nextPage }}
+  {{/*  {{ end }}  */}}
+  {{/*  {{ if $nextPage }}
       {{ $columnWidth:="col-md-12" }}
       {{ if $prevPage }}
         {{ $columnWidth = "col-md-6" }}
@@ -39,5 +40,5 @@
           <div class="next-prev-text">{{ $nextPage.Title }}</div>
         </a>
       </div>
-    {{ end }}
+    {{ end }}  */}}
 </div>

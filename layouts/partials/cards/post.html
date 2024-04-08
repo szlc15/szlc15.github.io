@@ -1,15 +1,15 @@
 <div class="post-card">
   <div class="card">
     <div class="card-head">
-      <a href="{{ .RelPermalink | relLangURL }}" class="post-card-link">
+      {{/*  <a href="{{ .RelPermalink | relLangURL }}" class="post-card-link">  */}}
         <img class="card-img-top" src='{{ partial "helpers/get-hero.html" . }}' alt="Hero Image">
-      </a>
+      {{/*  </a>  */}}
     </div>
     <div class="card-body">
-      <a href="{{ .RelPermalink | relLangURL }}" class="post-card-link">
+      {{/*  <a href="{{ .RelPermalink | relLangURL }}" class="post-card-link">  */}}
         <h5 class="card-title text-center">{{ .Title }}</h5>
         {{/*  <p class="card-text post-summary">{{ .Summary }}</p>  */}}
-      </a>
+      {{/*  </a>  */}}
       {{ if and site.Params.features.tags.enable site.Params.features.tags.on_card }}
         {{ partial "misc/tags.html" .Params.tags }}
       {{ end }}
