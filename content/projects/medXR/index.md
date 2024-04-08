@@ -1,4 +1,4 @@
 ---
-title: Medical AR/VR/XR
+title: Medical AR/VR/X
 
 ---
