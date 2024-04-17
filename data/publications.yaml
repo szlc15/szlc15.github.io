@@ -21,6 +21,22 @@ buttons:
 
 # your publications
 
+- title: EyeShadows:Peripheral Virtual Copies for Rapid Gaze Selection and Interaction
+  publishedIn:
+    name: 2024 IEEE Conference Virtual Reality and 3D User Interfaces (VR)
+    date: Mar. 2024
+  authors:
+  - name: Jason Orlosky
+  - name: Chang Liu
+  - name: Kenya Sakamoto
+  - name: Ludwig Sidenmark
+  - name: Adam Mansour
+  url: https://doi.org/10.1109/VR58804.2024.00088
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
+
 publications:
 - title: PreFlap:From Photoacoustic Tomography Images to Vascular Mapping Sheets for Improved Preoperative Flap Evaluation
   publishedIn:
