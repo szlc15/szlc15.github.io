@@ -21,6 +21,7 @@ buttons:
 
 # your publications
 
+publications:
 - title: Capture of emotional responses under a simulated earthquake experience using near-infrared spectroscopy and virtual reality
   publishedIn:
     name: PLOS ONE
@@ -40,7 +41,6 @@ buttons:
   categories: ["journal"]
   tags: ["Journal"]
 
-publications:
 - title: EyeShadows:Peripheral Virtual Copies for Rapid Gaze Selection and Interaction
   publishedIn:
     name: 2024 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)
