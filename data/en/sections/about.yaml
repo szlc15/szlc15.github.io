@@ -13,7 +13,7 @@ designation: Program-Specific Senior Lecturer
 # your company information
 company:
   name: Kyoto University
-  url: "https://medinfo.kuhp.kyoto-u.ac.jp/"
+  url: "https://www.rwd.kuhp.kyoto-u.ac.jp/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
@@ -23,7 +23,7 @@ company:
 summary: 'Hi, my name is Chang Liu and I am a computer scientist and researcher.
 I dedicate my efforts mostly to interdisciplinary studies, trying to bridge the gap between information technologies and clinical environments.
 I am also supervising students from graduate schools of both Medicine and Informatics.
-Some of my research interests include Human-Computer Interaction, Eye Tracking Applications, Medical AR/VR/XR and Medical Artifcial Interlligence.'
+Some of my research interests include Human-Computer Interaction, Eye Tracking Applications, Medical AR/VR/XR and Medical Artificial Intelligence.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
