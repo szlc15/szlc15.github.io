@@ -21,6 +21,25 @@ buttons:
 
 # your publications
 
+- title: Capture of emotional responses under a simulated earthquake experience using near-infrared spectroscopy and virtual reality
+  publishedIn:
+    name: PLOS ONE
+    date: May. 2024
+  authors:
+  - name: Hikari Otsuka
+  - name: Kenji Hashimoto
+  - name: Sayaka Okahashi
+  - name: Hirotake Ishii
+  - name: Wataru Asaba
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Akitoshi Seiyama
+  url: https://doi.org/10.1371/journal.pone.0304107
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 publications:
 - title: EyeShadows:Peripheral Virtual Copies for Rapid Gaze Selection and Interaction
   publishedIn:
