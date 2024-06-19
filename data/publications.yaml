@@ -22,6 +22,23 @@ buttons:
 # your publications
 
 publications:
+- title: Gamification Approach to Provide Support About the Deferral Experience in Blood Donation:Design and Feasibility Study
+  publishedIn:
+    name: JMIR Human Factors
+    date: June. 2024
+  authors:
+  - name: Roberto Espinoza Chamorro
+  - name: Luciano H.O. Santos
+  - name: Yukiko Mori
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.2196/50086
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Capture of emotional responses under a simulated earthquake experience using near-infrared spectroscopy and virtual reality
   publishedIn:
     name: PLOS ONE
