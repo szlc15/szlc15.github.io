@@ -22,7 +22,21 @@ buttons:
 # your publications
 
 publications:
-
+- title: Investigating Decision Factors Affecting Subjective Description Disclosure in Health Information Exchange in Japan
+  publishedIn:
+    name: Studies in Health Technology and Informatics
+    date: Aug. 2024
+  authors:
+  - name: Saki Hirayama
+  - name: Yukiko Mori
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.3233/shti240678
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
 
 - title: Similarity Analysis of Clinical Notes for Revealing Writing Styles in an Electronic Medical Record System
   publishedIn:
