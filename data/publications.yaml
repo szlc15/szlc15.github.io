@@ -22,6 +22,57 @@ buttons:
 # your publications
 
 publications:
+
+
+- title: Similarity Analysis of Clinical Notes for Revealing Writing Styles in an Electronic Medical Record System
+  publishedIn:
+    name: Studies in Health Technology and Informatics
+    date: Aug. 2024
+  authors:
+  - name: Wataru Murata
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Yukiko Mori
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.3233/shti240757
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
+
+- title: Developing a Sustainable Shared Child’s Health Record in Low Resources Setting, Lao PDR
+  publishedIn:
+    name: Studies in Health Technology and Informatics
+    date: Aug. 2024
+  authors:
+  - name: Thepphouthone Sorsavanh 
+  - name: Yukiko Mori
+  - name: Goshiro Yamamoto
+  - name: Chang Liu
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.3233/SHTI240657
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
+
+- title: Comparing Patient Perception and Physician’s Records:Generative AI Performance Evaluation 
+  publishedIn:
+    name: Studies in Health Technology and Informatics
+    date: Aug. 2024
+  authors:
+  - name: Nattawipa Thawinwisan 
+  - name: Chang Liu
+  - name: Kazumasa Kishimoto
+  - name: Goshiro Yamamoto
+  - name: Yukiko Mori
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.3233/SHTI240503
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
+
 - title: Gamification Approach to Provide Support About the Deferral Experience in Blood Donation:Design and Feasibility Study
   publishedIn:
     name: JMIR Human Factors
