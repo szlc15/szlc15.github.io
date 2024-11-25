@@ -22,6 +22,58 @@ buttons:
 # your publications
 
 publications:
+- title: Noninvasive visualization of the midline-crossing arterial variation in the deep inferior epigastric artery perforator flap using photoacoustic tomography for application in patients with abdominal scars
+  publishedIn:
+    name: Journal of Plastic, Reconstructive & Aesthetic Surgery
+    date: Dec. 2024
+  authors:
+  - name: Itaru Tsuge
+  - name: Susumu Saito
+  - name: Maria Chiara Munisso
+  - name: Tomoko Kosaka
+  - name: Ayako Takaya
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Naoki Morimoto
+  url: https://doi.org/10.1016/j.bjps.2024.09.010
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
+- title: Facilitative Agents with Deliberate Handicaps in Traditional Competitive Games for Improved Playability
+  publishedIn:
+    name: CHI PLAY Companion '24:Companion Proceedings of the 2024 Annual Symposium on Computer-Human Interaction in Play
+    date: Oct. 2024
+  authors:
+  - name: Sho Mitarai
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Nagisa Munekata
+  url: https://doi.org/10.1145/3665463.3678804
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
+
+- title: Virtual Patientization:A Playable Design for Clinical Ultrasound Training by Embedding Virtual Lesions
+  publishedIn:
+    name: CHI PLAY Companion '24:Companion Proceedings of the 2024 Annual Symposium on Computer-Human Interaction in Play
+    date: Oct. 2024
+  authors:
+  - name: Masaki Goda
+  - name: Goshiro Yamamoto
+  - name: Chang Liu
+  - name: Kazumasa Kishimoto
+  - name: Sho Mitarai
+  - name: Yukiko Mori
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.1145/3665463.3678788
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
+
 - title: Investigating Decision Factors Affecting Subjective Description Disclosure in Health Information Exchange in Japan
   publishedIn:
     name: Studies in Health Technology and Informatics
