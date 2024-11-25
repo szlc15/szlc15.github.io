@@ -16,7 +16,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.6.0
       with:
-        hugo-version: 'latest'
+        hugo-version: '0.124.0'
         extended: true
 
     - name: Update Hugo Modules
@@ -33,7 +33,7 @@ jobs:
         npm install        
 
     - name: Build
-      run: hugo
+      run: hugo --minify
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
