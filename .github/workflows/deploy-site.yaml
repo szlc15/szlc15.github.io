@@ -28,7 +28,7 @@ jobs:
         node-version: 18
 
     - name: Install node modules
-      run:
+      run: |
         hugo mod npm pack
         npm install        
 
