@@ -28,12 +28,12 @@ jobs:
         node-version: 18
 
     - name: Install node modules
-      run: |
+      run:
         hugo mod npm pack
         npm install        
 
     - name: Build
-      run: hugo
+      run: hugo --minify
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
