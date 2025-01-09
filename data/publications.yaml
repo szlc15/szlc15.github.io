@@ -22,6 +22,25 @@ buttons:
 # your publications
 
 publications:
+- title: Real‐Time Subcutaneous Arterial Navigation for Thinning of an Anterolateral Thigh Flap Using Photoacoustic Imaging and Projection Mapping:A Case Report
+  publishedIn:
+    name: Microsurgery
+    date: Jan. 2025
+  authors:
+  - name: Itaru Tsuge
+  - name: Susumu Saito
+  - name: Maria Chiara Munisso
+  - name: Tomoko Kosaka
+  - name: Ayako Takaya
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Naoki Morimoto
+  url: https://doi.org/10.1002/micr.70013
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: RehaBricks:An Electronic Modular Pegboard for Improving Upper Limb Exercise Adaptability
   publishedIn:
     name: 2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
