@@ -22,6 +22,26 @@ buttons:
 # your publications
 
 publications:
+- title: Unified total body CT image with multiple organ specific windowings:validating improved diagnostic accuracy and speed in trauma cases
+  publishedIn:
+    name: Scientific Reports
+    date: Feb. 2025
+  authors:
+  - name: Naoki Okada
+  - name: Shusuke Inoue
+  - name: Chang Liu
+  - name: Sho Mitarai
+  - name: Shinichi Nakagawa
+  - name: Yohsuke Matsuzawa
+  - name: Satoshi Fujimi
+  - name: Goshiro Yamamoto
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.1038/s41598-024-83346-y
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Real‐Time Subcutaneous Arterial Navigation for Thinning of an Anterolateral Thigh Flap Using Photoacoustic Imaging and Projection Mapping:A Case Report
   publishedIn:
     name: Microsurgery
