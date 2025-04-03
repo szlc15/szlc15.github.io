@@ -22,6 +22,41 @@ buttons:
 # your publications
 
 publications:
+- title: Leveraging social media for public health: NLP implementations for blood donation data analysis in Japan
+  publishedIn:
+    name: Social Network Analysis and Mining
+    date: Apr. 2025
+  authors:
+  - name: Roberto Espinoza Chamorro
+  - name: Kazumasa Kishimoto
+  - name: Chang Liu
+  - name: Luciano H.O. Santos
+  - name: Yukiko Mori
+  - name: Goshiro Yamamoto
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.1007/s13278-025-01437-8
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
+- title: Climbing Motion Generation for Humanoid Agents through Deep Reinforcement Learning with Optimization Constraints
+  publishedIn:
+    name: 2025 IEEE International Conference on Mechatronics (ICM)
+    date: Feb. 2025
+  authors:
+  - name: Kazuho Onishi
+  - name: Yuki Uranishi
+  - name: Masato Kobayashi
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Ratsamee Photchara
+  url: https://doi.org/10.1109/ICM62621.2025.10934872
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
+
 - title: Generating Double Dyno Motion for Humanoid Agents in Simulated Bouldering Environment Through Deep Reinforcement Learning
   publishedIn:
     name: 2025 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR)
