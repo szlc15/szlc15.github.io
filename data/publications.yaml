@@ -22,6 +22,25 @@ buttons:
 # your publications
 
 publications:
+- title: Prediction of surgery start for automated anesthesia using draping detection from surveillance videos
+  publishedIn:
+    name: Journal of Clinical Monitoring and Computing
+    date: Jun. 2025
+  authors:
+  - name: Akihito Ito
+  - name: Sho Mitarai
+  - name: Kazumasa Kishimoto
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Yukiko Mori
+  - name: Moritoki Egi
+  - name: Tomohiro Kuroda 
+  url: https://doi.org/10.1007/s10877-025-01314-x
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Leveraging social media for public health:NLP implementations for blood donation data analysis in Japan
   publishedIn:
     name: Social Network Analysis and Mining
