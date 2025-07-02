@@ -22,6 +22,24 @@ buttons:
 # your publications
 
 publications:
+- title: Semi-Supervised Role Classification from Operating Room Surveillance Videos for Intraoperative Situation Analysis
+  publishedIn:
+    name: International Journal of Activity and Behavior Computing
+    date: Jul. 2025
+  authors:
+  - name: Koji Yokoyama
+  - name: Goshiro Yamamoto
+  - name: Chang Liu
+  - name: Sho Mitarai
+  - name: Kazumasa Kishimoto
+  - name: Yukiko Mori
+  - name: Tomohiro Kuroda
+  url: http://dx.doi.org/10.60401/ijabc.49
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Prediction of surgery start for automated anesthesia using draping detection from surveillance videos
   publishedIn:
     name: Journal of Clinical Monitoring and Computing
