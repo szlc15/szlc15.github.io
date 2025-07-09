@@ -22,6 +22,25 @@ buttons:
 # your publications
 
 publications:
+- title: The evolution of healthcare digitalisation policies in Malaysia: A four-decade narrative review (1985–2025)
+  publishedIn:
+    name: DIGITAL HEALTH
+    date: Jul. 2025
+  authors:
+  - name: Nuraini Naim
+  - name: Yuki Kuroda
+  - name: Satoshi Yamada
+  - name: Yukiko Mori
+  - name: Chang Liu
+  - name: Roberto Espinoza
+  - name: Goshiro Yamamoto
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.1177/2055207625135327
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Semi-Supervised Role Classification from Operating Room Surveillance Videos for Intraoperative Situation Analysis
   publishedIn:
     name: International Journal of Activity and Behavior Computing
