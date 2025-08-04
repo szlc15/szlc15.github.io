@@ -22,6 +22,21 @@ buttons:
 # your publications
 
 publications:
+- title: Emotion dynamics in social deception games:Analysis of professional and nonprofessional players through electrodermal activity in werewolf games
+  publishedIn:
+    name: Entertainment Computing
+    date: Sept. 2025
+  authors:
+  - name: Sho Mitarai
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Nagisa Munekata
+  url: https://doi.org/10.1016/j.entcom.2025.100986
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Impact of Shared Child Health Record on Vaccination Completeness:A Case Study in Lao PDR
   publishedIn:
     name: Advanced Biomedical Engineering
