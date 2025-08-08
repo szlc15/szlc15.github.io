@@ -22,6 +22,42 @@ buttons:
 # your publications
 
 publications:
+- title: Video-Based Compensatory Movement Assessment for Supporting Upper Limb Rehabilitation Evaluation
+  publishedIn:
+    name: 20th World Congress on Medical and Health Informatics (MedInfo 2025)
+    date: Aug. 2025
+  authors:
+  - name: Chang Liu
+  - name: Sho Mitarai
+  - name: Kento Suzuki
+  - name: Hiroaki Ueshima
+  - name: Sayaka Okahashi
+  - name: Tomohiro Kuroda
+  - name: Goshiro Yamamoto
+  url: http://dx.doi.org/10.3233/shti250998
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
+
+- title: Exploring Three-Dimensional Scanning and Object Recognition for Room Accessibility in Home Environments
+  publishedIn:
+    name: 20th World Congress on Medical and Health Informatics (MedInfo 2025)
+    date: Aug. 2025
+  authors:
+  - name: Yu-ju Liao
+  - name: Chang Liu
+  - name: Hiroaki Ueshima
+  - name: Kazumasa Kishimoto
+  - name: Yukiko Mori
+  - name: Goshiro Yamamoto
+  - name: Tomohiro Kuroda
+  url: http://dx.doi.org/10.3233/shti251276
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
+
 - title: Emotion dynamics in social deception games:Analysis of professional and nonprofessional players through electrodermal activity in werewolf games
   publishedIn:
     name: Entertainment Computing
