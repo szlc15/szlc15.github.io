@@ -22,6 +22,23 @@ buttons:
 # your publications
 
 publications:
+- title: Enhancing Patient Identification Accuracy in Shared Child Health Records:a Hybrid Approach for the Lao Language Context
+  publishedIn:
+    name: Journal of Medical Systems
+    date: Sept. 2025
+  authors:
+  - name: Thepphouthone Sorsavanh
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Yukiko Mori
+  - name: Shinji Kobayashi
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.1007/s10916-025-02260-6
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Emotion dynamics in social deception games:Analysis of professional and nonprofessional players through electrodermal activity in werewolf games
   publishedIn:
     name: Entertainment Computing
