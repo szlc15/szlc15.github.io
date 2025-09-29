@@ -39,6 +39,24 @@ publications:
   categories: ["journal"]
   tags: ["Journal"]
 
+  - title: BERTopic Implementation for ‘X’ Data Analysis:Blood Donation in the Japanese Context
+  publishedIn:
+    name: Advanced Biomedical Engineering
+    date: Sept. 2025
+  authors:
+  - name: Roberto Espinoza CHAMORRO
+  - name: Kazumasa KISHIMOTO
+  - name: Chang LIU
+  - name: Luciano H.O. SANTOS
+  - name: Yukiko MORI
+  - name: Goshiro YAMAMOTO
+  - name: Tomohiro KURODA
+  url: https://doi.org/10.14326/abe.14.328
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Emotion dynamics in social deception games:Analysis of professional and nonprofessional players through electrodermal activity in werewolf games
   publishedIn:
     name: Entertainment Computing
