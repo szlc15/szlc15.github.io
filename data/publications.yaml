@@ -22,6 +22,41 @@ buttons:
 # your publications
 
 publications:
+- title: Spatio-temporal unsupervised individual clustering for operating room videos
+  publishedIn:
+    name: Applied Science
+    date: Oct. 2025
+  authors:
+  - name: Koji Yokoyama
+  - name: Goshiro Yamamoto
+  - name: Chang Liu
+  - name: Sho Mitarai
+  - name: Kazumasa Kishimoto
+  - name: Yukiko Mori
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.1007/s10489-025-06917-0
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
+- title: Exploring Visual Augmentation for Soccer Kicking Posture Instruction
+  publishedIn:
+    name: ITE Transactions on Media Technology and Applications
+    date: Oct. 2025
+  authors:
+  - name: Chang Liu
+  - name: Ryota Sato
+  - name: Masato Kobayashi
+  - name: Goshiro Yamamoto
+  - name: Photchara Ratsamee
+  - name: Yuki Uranishi
+  url: https://doi.org/10.3169/mta.13.393
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Enhancing Patient Identification Accuracy in Shared Child Health Records:a Hybrid Approach for the Lao Language Context
   publishedIn:
     name: Journal of Medical Systems
