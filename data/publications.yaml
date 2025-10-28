@@ -22,6 +22,23 @@ buttons:
 # your publications
 
 publications:
+- title: Comparing patient questionnaires and physician documentation in a tertiary hospital setting:A retrospective analysis of subjective information
+  publishedIn:
+    name: Informatics in Medicine Unlocked
+    date: Oct. 2025
+  authors:
+  - name: Nattawipa Thawinwisan
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Kazumasa Kishimoto
+  - name: Yukiko Mori
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.1016/j.imu.2025.101707
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Spatio-temporal unsupervised individual clustering for operating room videos
   publishedIn:
     name: Applied Science
