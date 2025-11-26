@@ -22,6 +22,24 @@ buttons:
 # your publications
 
 publications:
+- title: Designing a Governance-Aware Access Control Architecture for Secure Data Management of Wearable Health Data
+  publishedIn:
+    name: Advanced Biomedical Engineering
+    date: Nov. 2025
+  authors:
+  - name: Nuraini Naim
+  - name: Yuki Kuroda
+  - name: Yukiko Mori
+  - name: Roberto Espinoza
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.14326/abe.14.376
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Comparing patient questionnaires and physician documentation in a tertiary hospital setting:A retrospective analysis of subjective information
   publishedIn:
     name: Informatics in Medicine Unlocked
