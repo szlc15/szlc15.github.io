@@ -22,6 +22,24 @@ buttons:
 # your publications
 
 publications:
+- title: Towards Accessible Home Safety Assessment:An AI-Driven Mobile XR Application for Older Adults
+  publishedIn:
+    name: 2026 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR)
+    date: Jan. 2026
+  authors:
+  - name: Yu-Ju Liao
+  - name: Chang Liu
+  - name: Hiroaki Ueshima
+  - name: Kazumasa Kishimoto
+  - name: Yukiko Mori
+  - name: Goshiro Yamamoto
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.1109/AIxVR67263.2026.00059
+  paper:
+    summary: 
+  categories: ["conference"]
+  tags: ["Conference"]
+
 - title: Dynamic embedment of virtual lesions for practical training of ultrasound diagnosis
   publishedIn:
     name: Virtual Reality
