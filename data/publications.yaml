@@ -22,6 +22,59 @@ buttons:
 # your publications
 
 publications:
+- title: Exploring Factors Influencing Nursing Task Prioritization for Supportive Information System Design:Qualitative Study With Thematic Analysis
+  publishedIn:
+    name: JMIR Human Factors
+    date: Jun. 2026
+  authors:
+  - name: Kodai Iwamoto
+  - name: Mayumi Toyama
+  - name: Goshiro Yamamoto
+  - name: Chang Liu
+  - name: Kazumasa Kishimoto
+  - name: Yukiko Mori
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.2196/89940
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
+- title: Clinical Barriers to Hands-Free, Eyes-Free Voice Input for Nursing Records:Field Usability Study
+  publishedIn:
+    name: Asian/Pacific Island Nursing Journal
+    date: Jun. 2026
+  authors:
+  - name: Natsuko Nishida
+  - name: Chang Liu
+  - name: Goshiro Yamamoto
+  - name: Tomohiro Kuroda
+  url: https://doi.org/10.2196/71462
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
+- title: Comparing Subjective Evaluations of Nursing Tasks Between Novice and Experienced Nurses for Supporting Novice Nurses
+  publishedIn:
+    name: Advanced Biomedical Engineering
+    date: May. 2026
+  authors:
+  - name: Kodai IWAMOTO
+  - name: Sho MITARAI
+  - name: Kazumasa KISHIMOTO
+  - name: Chang LIU
+  - name: Yukiko MORI
+  - name: Natsuko NISHIDA
+  - name: Tomoko HIKITA
+  - name: Goshiro YAMAMOTO
+  - name: Tomohiro KURODA
+  url: https://doi.org/10.14326/abe.15.323
+  paper:
+    summary: 
+  categories: ["journal"]
+  tags: ["Journal"]
+
 - title: Nursing Activity Recognition from Real-Time Egocentric Videos Using Retrieval-Augmented Generation with Procedural Knowledge
   publishedIn:
     name: Proceedings of the Augmented Humans International Conference 2026
